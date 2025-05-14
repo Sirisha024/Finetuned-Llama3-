@@ -69,16 +69,7 @@ Used **LoRA (Low-Rank Adaptation)** for parameter-efficient fine-tuning. Only ~0
  └───────────────────────┘
 ```
 
-### 🧪 Steps
 
-1. **Install dependencies** in Colab via `pip install`
-2. **Load LLaMA 3 8B** model (quantized 4-bit)
-3. **Attach LoRA adapters** using Unsloth
-4. **Prepare the tokenizer** with ChatML format
-5. **Load Guanaco dataset** (500 examples)
-6. **Fine-tune the model** using `SFTTrainer`
-7. **Run inference** to test a prompt
-8. **Merge and push** the model to Hugging Face Hub
 
 ---
 
